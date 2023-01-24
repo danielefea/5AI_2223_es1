@@ -1,0 +1,7 @@
+#img{
+    background-image: url("https://cdn.studenti.stbm.it/images/2022/10/03/concetti-base-di-informatica_300x200.jpeg");
+    width: 500px;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
