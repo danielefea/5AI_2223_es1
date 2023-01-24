@@ -5,3 +5,25 @@
     background-position: center;
     background-size: cover;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    animation-name: ingrandimento;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ingrandimento {
+    0%{
+        transform: scale(100%);
+    }
+    50%{
+        transform: scale(130%);
+    }
+    100%{
+        transform: scale(100%);
+    }
+}
